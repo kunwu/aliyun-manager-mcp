@@ -1,0 +1,31 @@
+{
+  "name": "aliyun-manager-mcp",
+  "version": "1.0.0",
+  "description": "Aliyun ECS manager MCP server",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node --trace-warnings build/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "aliyun",
+    "ecs",
+    "manager",
+    "mcp"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@alicloud/bssopenapi20171214": "^4.0.0",
+    "@alicloud/ecs20140526": "^3.0.10",
+    "@alicloud/openapi-client": "^0.4.6",
+    "@modelcontextprotocol/sdk": "^1.8.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
