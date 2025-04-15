@@ -126,7 +126,7 @@ npm run dev
 
 ## License
 
-ISC License
+MIT License
 
 ## Contributing
 
